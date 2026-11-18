@@ -1,0 +1,20 @@
+{
+    "dataset": "PathSnap",
+    "partition": "train",
+    "evaluator_data_accessed": false,
+    "student_test_data_accessed": false,
+    "trips_processed": 80,
+    "expected_training_trips": 80,
+    "candidate_radius_m": 50.0,
+    "gps_observations": 208417,
+    "total_candidate_rows": 1866677,
+    "positive_candidates": 185862,
+    "negative_candidates": 1680815,
+    "positive_candidate_percentage": 9.956837738933945,
+    "negative_candidate_percentage": 90.04316226106606,
+    "observations_with_candidates": 190187,
+    "observations_with_reference_candidate": 185841,
+    "reference_candidate_recall_pct": 89.16787018333437,
+    "observations_with_candidate_misses": 22576,
+    "combined_candidate_csv": "/home/piyush-a-patel/Patel/Assignment/Sem-5/ML-Hackathon/PathSnap/experiments/results/training_dataset/training_candidates.csv"
+}

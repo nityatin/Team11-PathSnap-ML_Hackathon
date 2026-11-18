@@ -1,0 +1,25 @@
+{
+    "feature_columns": [
+        "distance_m",
+        "bearing_difference_deg",
+        "road_length_m",
+        "projection_fraction",
+        "gps_speed_mps",
+        "time_delta_s"
+    ],
+    "target_column": "is_reference",
+    "group_columns": [
+        "trip_id",
+        "gps_index"
+    ],
+    "excluded_reference_columns": [
+        "reference_arc_id",
+        "reference_route_position",
+        "reference_route_distance_m"
+    ],
+    "label_quality_rule": {
+        "minimum_requirement": "At least one positive candidate per GPS observation",
+        "maximum_reference_distance_m": 50.0
+    },
+    "missing_values": "Handle through fold-specific imputation during model training."
+}

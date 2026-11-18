@@ -1,0 +1,23 @@
+{
+    "selected_model": "Random Forest",
+    "selection_metric": "Observation-level Top-1 Accuracy, with candidate Macro F1 as tie-breaker",
+    "cross_validation": {
+        "method": "GroupKFold",
+        "number_of_folds": 5,
+        "group_column": "trip_id",
+        "group_overlap_allowed": false
+    },
+    "feature_columns": [
+        "distance_m",
+        "bearing_difference_deg",
+        "road_length_m",
+        "projection_fraction",
+        "gps_speed_mps",
+        "time_delta_s"
+    ],
+    "target_column": "is_reference",
+    "training_trips": 80,
+    "training_candidate_rows": 1831153,
+    "final_model_training_time_seconds": 66.90450811299979,
+    "artifact": "/home/piyush-a-patel/Patel/Assignment/Sem-5/ML-Hackathon/PathSnap/artifacts/models/best_candidate_ranker.joblib"
+}

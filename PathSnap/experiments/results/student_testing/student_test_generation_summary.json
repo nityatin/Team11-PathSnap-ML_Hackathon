@@ -1,0 +1,152 @@
+[
+    {
+        "trip_id": "00000000",
+        "gps_observations": 2503,
+        "candidate_rows": 13670,
+        "observations_with_candidates": 2503,
+        "observations_without_candidates": 0,
+        "candidate_radius_m": 50.0,
+        "prediction_files": {
+            "Logistic Regression": "/home/piyush-a-patel/Patel/Assignment/Sem-5/ML-Hackathon/PathSnap/experiments/results/student_testing/predictions/00000000_logistic_regression.csv",
+            "Decision Tree": "/home/piyush-a-patel/Patel/Assignment/Sem-5/ML-Hackathon/PathSnap/experiments/results/student_testing/predictions/00000000_decision_tree.csv",
+            "Random Forest": "/home/piyush-a-patel/Patel/Assignment/Sem-5/ML-Hackathon/PathSnap/experiments/results/student_testing/predictions/00000000_random_forest.csv",
+            "Extra Trees": "/home/piyush-a-patel/Patel/Assignment/Sem-5/ML-Hackathon/PathSnap/experiments/results/student_testing/predictions/00000000_extra_trees.csv",
+            "HistGradientBoosting": "/home/piyush-a-patel/Patel/Assignment/Sem-5/ML-Hackathon/PathSnap/experiments/results/student_testing/predictions/00000000_histgradientboosting.csv"
+        }
+    },
+    {
+        "trip_id": "00000007",
+        "gps_observations": 1354,
+        "candidate_rows": 5010,
+        "observations_with_candidates": 1354,
+        "observations_without_candidates": 0,
+        "candidate_radius_m": 50.0,
+        "prediction_files": {
+            "Logistic Regression": "/home/piyush-a-patel/Patel/Assignment/Sem-5/ML-Hackathon/PathSnap/experiments/results/student_testing/predictions/00000007_logistic_regression.csv",
+            "Decision Tree": "/home/piyush-a-patel/Patel/Assignment/Sem-5/ML-Hackathon/PathSnap/experiments/results/student_testing/predictions/00000007_decision_tree.csv",
+            "Random Forest": "/home/piyush-a-patel/Patel/Assignment/Sem-5/ML-Hackathon/PathSnap/experiments/results/student_testing/predictions/00000007_random_forest.csv",
+            "Extra Trees": "/home/piyush-a-patel/Patel/Assignment/Sem-5/ML-Hackathon/PathSnap/experiments/results/student_testing/predictions/00000007_extra_trees.csv",
+            "HistGradientBoosting": "/home/piyush-a-patel/Patel/Assignment/Sem-5/ML-Hackathon/PathSnap/experiments/results/student_testing/predictions/00000007_histgradientboosting.csv"
+        }
+    },
+    {
+        "trip_id": "00000009",
+        "gps_observations": 1049,
+        "candidate_rows": 20758,
+        "observations_with_candidates": 1049,
+        "observations_without_candidates": 0,
+        "candidate_radius_m": 50.0,
+        "prediction_files": {
+            "Logistic Regression": "/home/piyush-a-patel/Patel/Assignment/Sem-5/ML-Hackathon/PathSnap/experiments/results/student_testing/predictions/00000009_logistic_regression.csv",
+            "Decision Tree": "/home/piyush-a-patel/Patel/Assignment/Sem-5/ML-Hackathon/PathSnap/experiments/results/student_testing/predictions/00000009_decision_tree.csv",
+            "Random Forest": "/home/piyush-a-patel/Patel/Assignment/Sem-5/ML-Hackathon/PathSnap/experiments/results/student_testing/predictions/00000009_random_forest.csv",
+            "Extra Trees": "/home/piyush-a-patel/Patel/Assignment/Sem-5/ML-Hackathon/PathSnap/experiments/results/student_testing/predictions/00000009_extra_trees.csv",
+            "HistGradientBoosting": "/home/piyush-a-patel/Patel/Assignment/Sem-5/ML-Hackathon/PathSnap/experiments/results/student_testing/predictions/00000009_histgradientboosting.csv"
+        }
+    },
+    {
+        "trip_id": "00000040",
+        "gps_observations": 2995,
+        "candidate_rows": 16279,
+        "observations_with_candidates": 2995,
+        "observations_without_candidates": 0,
+        "candidate_radius_m": 50.0,
+        "prediction_files": {
+            "Logistic Regression": "/home/piyush-a-patel/Patel/Assignment/Sem-5/ML-Hackathon/PathSnap/experiments/results/student_testing/predictions/00000040_logistic_regression.csv",
+            "Decision Tree": "/home/piyush-a-patel/Patel/Assignment/Sem-5/ML-Hackathon/PathSnap/experiments/results/student_testing/predictions/00000040_decision_tree.csv",
+            "Random Forest": "/home/piyush-a-patel/Patel/Assignment/Sem-5/ML-Hackathon/PathSnap/experiments/results/student_testing/predictions/00000040_random_forest.csv",
+            "Extra Trees": "/home/piyush-a-patel/Patel/Assignment/Sem-5/ML-Hackathon/PathSnap/experiments/results/student_testing/predictions/00000040_extra_trees.csv",
+            "HistGradientBoosting": "/home/piyush-a-patel/Patel/Assignment/Sem-5/ML-Hackathon/PathSnap/experiments/results/student_testing/predictions/00000040_histgradientboosting.csv"
+        }
+    },
+    {
+        "trip_id": "00000052",
+        "gps_observations": 262,
+        "candidate_rows": 2447,
+        "observations_with_candidates": 262,
+        "observations_without_candidates": 0,
+        "candidate_radius_m": 50.0,
+        "prediction_files": {
+            "Logistic Regression": "/home/piyush-a-patel/Patel/Assignment/Sem-5/ML-Hackathon/PathSnap/experiments/results/student_testing/predictions/00000052_logistic_regression.csv",
+            "Decision Tree": "/home/piyush-a-patel/Patel/Assignment/Sem-5/ML-Hackathon/PathSnap/experiments/results/student_testing/predictions/00000052_decision_tree.csv",
+            "Random Forest": "/home/piyush-a-patel/Patel/Assignment/Sem-5/ML-Hackathon/PathSnap/experiments/results/student_testing/predictions/00000052_random_forest.csv",
+            "Extra Trees": "/home/piyush-a-patel/Patel/Assignment/Sem-5/ML-Hackathon/PathSnap/experiments/results/student_testing/predictions/00000052_extra_trees.csv",
+            "HistGradientBoosting": "/home/piyush-a-patel/Patel/Assignment/Sem-5/ML-Hackathon/PathSnap/experiments/results/student_testing/predictions/00000052_histgradientboosting.csv"
+        }
+    },
+    {
+        "trip_id": "00000056",
+        "gps_observations": 3958,
+        "candidate_rows": 48984,
+        "observations_with_candidates": 3958,
+        "observations_without_candidates": 0,
+        "candidate_radius_m": 50.0,
+        "prediction_files": {
+            "Logistic Regression": "/home/piyush-a-patel/Patel/Assignment/Sem-5/ML-Hackathon/PathSnap/experiments/results/student_testing/predictions/00000056_logistic_regression.csv",
+            "Decision Tree": "/home/piyush-a-patel/Patel/Assignment/Sem-5/ML-Hackathon/PathSnap/experiments/results/student_testing/predictions/00000056_decision_tree.csv",
+            "Random Forest": "/home/piyush-a-patel/Patel/Assignment/Sem-5/ML-Hackathon/PathSnap/experiments/results/student_testing/predictions/00000056_random_forest.csv",
+            "Extra Trees": "/home/piyush-a-patel/Patel/Assignment/Sem-5/ML-Hackathon/PathSnap/experiments/results/student_testing/predictions/00000056_extra_trees.csv",
+            "HistGradientBoosting": "/home/piyush-a-patel/Patel/Assignment/Sem-5/ML-Hackathon/PathSnap/experiments/results/student_testing/predictions/00000056_histgradientboosting.csv"
+        }
+    },
+    {
+        "trip_id": "00000065",
+        "gps_observations": 768,
+        "candidate_rows": 10796,
+        "observations_with_candidates": 768,
+        "observations_without_candidates": 0,
+        "candidate_radius_m": 50.0,
+        "prediction_files": {
+            "Logistic Regression": "/home/piyush-a-patel/Patel/Assignment/Sem-5/ML-Hackathon/PathSnap/experiments/results/student_testing/predictions/00000065_logistic_regression.csv",
+            "Decision Tree": "/home/piyush-a-patel/Patel/Assignment/Sem-5/ML-Hackathon/PathSnap/experiments/results/student_testing/predictions/00000065_decision_tree.csv",
+            "Random Forest": "/home/piyush-a-patel/Patel/Assignment/Sem-5/ML-Hackathon/PathSnap/experiments/results/student_testing/predictions/00000065_random_forest.csv",
+            "Extra Trees": "/home/piyush-a-patel/Patel/Assignment/Sem-5/ML-Hackathon/PathSnap/experiments/results/student_testing/predictions/00000065_extra_trees.csv",
+            "HistGradientBoosting": "/home/piyush-a-patel/Patel/Assignment/Sem-5/ML-Hackathon/PathSnap/experiments/results/student_testing/predictions/00000065_histgradientboosting.csv"
+        }
+    },
+    {
+        "trip_id": "00000076",
+        "gps_observations": 1486,
+        "candidate_rows": 29186,
+        "observations_with_candidates": 1486,
+        "observations_without_candidates": 0,
+        "candidate_radius_m": 50.0,
+        "prediction_files": {
+            "Logistic Regression": "/home/piyush-a-patel/Patel/Assignment/Sem-5/ML-Hackathon/PathSnap/experiments/results/student_testing/predictions/00000076_logistic_regression.csv",
+            "Decision Tree": "/home/piyush-a-patel/Patel/Assignment/Sem-5/ML-Hackathon/PathSnap/experiments/results/student_testing/predictions/00000076_decision_tree.csv",
+            "Random Forest": "/home/piyush-a-patel/Patel/Assignment/Sem-5/ML-Hackathon/PathSnap/experiments/results/student_testing/predictions/00000076_random_forest.csv",
+            "Extra Trees": "/home/piyush-a-patel/Patel/Assignment/Sem-5/ML-Hackathon/PathSnap/experiments/results/student_testing/predictions/00000076_extra_trees.csv",
+            "HistGradientBoosting": "/home/piyush-a-patel/Patel/Assignment/Sem-5/ML-Hackathon/PathSnap/experiments/results/student_testing/predictions/00000076_histgradientboosting.csv"
+        }
+    },
+    {
+        "trip_id": "00000077",
+        "gps_observations": 3911,
+        "candidate_rows": 47990,
+        "observations_with_candidates": 3911,
+        "observations_without_candidates": 0,
+        "candidate_radius_m": 50.0,
+        "prediction_files": {
+            "Logistic Regression": "/home/piyush-a-patel/Patel/Assignment/Sem-5/ML-Hackathon/PathSnap/experiments/results/student_testing/predictions/00000077_logistic_regression.csv",
+            "Decision Tree": "/home/piyush-a-patel/Patel/Assignment/Sem-5/ML-Hackathon/PathSnap/experiments/results/student_testing/predictions/00000077_decision_tree.csv",
+            "Random Forest": "/home/piyush-a-patel/Patel/Assignment/Sem-5/ML-Hackathon/PathSnap/experiments/results/student_testing/predictions/00000077_random_forest.csv",
+            "Extra Trees": "/home/piyush-a-patel/Patel/Assignment/Sem-5/ML-Hackathon/PathSnap/experiments/results/student_testing/predictions/00000077_extra_trees.csv",
+            "HistGradientBoosting": "/home/piyush-a-patel/Patel/Assignment/Sem-5/ML-Hackathon/PathSnap/experiments/results/student_testing/predictions/00000077_histgradientboosting.csv"
+        }
+    },
+    {
+        "trip_id": "00000091",
+        "gps_observations": 874,
+        "candidate_rows": 13918,
+        "observations_with_candidates": 874,
+        "observations_without_candidates": 0,
+        "candidate_radius_m": 50.0,
+        "prediction_files": {
+            "Logistic Regression": "/home/piyush-a-patel/Patel/Assignment/Sem-5/ML-Hackathon/PathSnap/experiments/results/student_testing/predictions/00000091_logistic_regression.csv",
+            "Decision Tree": "/home/piyush-a-patel/Patel/Assignment/Sem-5/ML-Hackathon/PathSnap/experiments/results/student_testing/predictions/00000091_decision_tree.csv",
+            "Random Forest": "/home/piyush-a-patel/Patel/Assignment/Sem-5/ML-Hackathon/PathSnap/experiments/results/student_testing/predictions/00000091_random_forest.csv",
+            "Extra Trees": "/home/piyush-a-patel/Patel/Assignment/Sem-5/ML-Hackathon/PathSnap/experiments/results/student_testing/predictions/00000091_extra_trees.csv",
+            "HistGradientBoosting": "/home/piyush-a-patel/Patel/Assignment/Sem-5/ML-Hackathon/PathSnap/experiments/results/student_testing/predictions/00000091_histgradientboosting.csv"
+        }
+    }
+]

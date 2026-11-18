@@ -1,0 +1,36 @@
+{
+    "prediction_partition": "student_test",
+    "training_partition": "train",
+    "evaluator_testing_accessed": false,
+    "models_refitted_on_training_data": [
+        "Logistic Regression",
+        "Decision Tree",
+        "Random Forest",
+        "Extra Trees",
+        "HistGradientBoosting"
+    ],
+    "student_testing_trips": [
+        "00000000",
+        "00000007",
+        "00000009",
+        "00000040",
+        "00000052",
+        "00000056",
+        "00000065",
+        "00000076",
+        "00000077",
+        "00000091"
+    ],
+    "candidate_radius_m": 50.0,
+    "label_distance_threshold_m": 50.0,
+    "prediction_pipeline_reads_route": false,
+    "ground_truth_used_only_for_evaluation": true,
+    "ground_truth_alignment_method": "Independent nearest reference-route segment per GPS observation; observations filtered by distance and candidate availability",
+    "training_times_seconds": {
+        "Logistic Regression": 2.2892110960001446,
+        "Decision Tree": 14.943040685000597,
+        "Random Forest": 66.82666071600033,
+        "Extra Trees": 43.635123193000254,
+        "HistGradientBoosting": 7.218303497000306
+    }
+}

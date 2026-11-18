@@ -1,11 +1,47 @@
-/PathSnap_student_materials/
-venv
-Student folder/train/
+# Dataset and private materials
 /Student folder/
+/PathSnap_student_materials/
+/PathSnap/data/raw/
+/PathSnap/data/interim/
+/PathSnap/data/processed/
+
+# Python environment and cache
 .venv/
+venv/
 __pycache__/
 *.py[cod]
+.pytest_cache/
+.coverage
+*.log
+
+# Credentials and local configuration
 .env
+.env.*
+!.env.example
+
+# Node
 node_modules/
 dist/
-venv
+
+# Ignore per-trip candidate outputs
+/PathSnap/experiments/results/candidate_generation/
+
+# Ignore huge generated training datasets
+/PathSnap/experiments/results/training_dataset/*.csv
+!/PathSnap/experiments/results/training_dataset/training_candidate_coverage.csv
+/PathSnap/experiments/results/training_features/training_features.csv
+
+# Ignore large cross-validation predictions
+/PathSnap/experiments/results/model_comparison/oof_predictions.csv.gz
+
+# Student evaluation prediction dumps
+/PathSnap/experiments/results/student_testing/predictions/
+
+# Keep only the selected final model
+/PathSnap/artifacts/models/student_testing_evaluation/
+
+# Raw point-level alignment diagnostics
+/PathSnap/reports/dataset_inspection/*alignment*.csv
+
+# Maps will be reviewed before committing
+/PathSnap/reports/maps/
