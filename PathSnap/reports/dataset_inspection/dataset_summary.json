@@ -1,0 +1,28 @@
+{
+    "dataset": "PathSnap",
+    "partitions_inspected": [
+        "train",
+        "student_test"
+    ],
+    "evaluator_testing_inspected": false,
+    "partition_summary": {
+        "train": {
+            "trip_directories": 80,
+            "complete_trips": 80,
+            "missing_files": 0,
+            "total_size_bytes": 89737452
+        },
+        "student_test": {
+            "trip_directories": 10,
+            "complete_trips": 10,
+            "missing_files": 0,
+            "total_size_bytes": 4368591
+        }
+    },
+    "total_trips_inspected": 90,
+    "total_files_found": 360,
+    "total_files_expected": 360,
+    "complete_trips": 90,
+    "total_malformed_rows": 0,
+    "output_directory": "/home/piyush-a-patel/Patel/Assignment/Sem-5/ML-Hackathon/PathSnap/reports/dataset_inspection"
+}

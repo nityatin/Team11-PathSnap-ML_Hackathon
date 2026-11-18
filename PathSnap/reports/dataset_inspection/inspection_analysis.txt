@@ -1,0 +1,92 @@
+
+=================================================================
+TRAJECTORY
+=================================================================
+       trip_id  gps_observation_rows  valid_coordinate_rows  invalid_coordinate_rows  valid_timestamp_rows  timestamp_min  timestamp_max  timestamp_delta_count  nonpositive_timestamp_deltas  gaps_over_one_second  exact_one_second_percentage  valid_consecutive_distance_pairs  trajectory_length_km  longitude_min  longitude_max  latitude_min  latitude_max
+count   90.000                90.000                 90.000                     90.0                90.000         90.000         90.000                 90.000                          90.0                90.000                       90.000                            90.000                90.000         90.000         90.000        90.000        90.000
+mean    49.289              2528.633               2528.633                      0.0              2528.633         10.489       5284.737               2527.633                           0.0                83.889                       94.318                          2527.633                36.393         17.110         17.293        45.136        45.241
+std     29.156              3157.000               3157.000                      0.0              3157.000         73.409      17238.751               3157.000                           0.0               196.964                       11.225                          3157.000                33.392         47.941         47.954        17.604        17.596
+min      0.000               262.000                262.000                      0.0               262.000          1.000        266.000                261.000                           0.0                 0.000                       53.066                           261.000                 5.547       -100.419       -100.268       -34.640       -34.609
+25%     25.250               899.250                899.250                      0.0               899.250          1.000       1134.800                898.250                           0.0                 0.000                       96.401                           898.250                12.765         -0.100          0.214        42.819        42.857
+50%     49.000              1496.500               1496.500                      0.0              1496.500          1.000       1711.001               1495.500                           0.0                13.000                       99.212                          1495.500                24.066         16.163         16.212        50.205        50.236
+75%     74.750              2816.250               2816.250                      0.0              2816.250          1.000       3619.750               2815.250                           0.0                63.250                      100.000                          2815.250                48.763         39.221         39.257        55.112        55.348
+max     99.000             19313.000              19313.000                      0.0             19313.000        693.000     154034.000              19312.000                           0.0              1268.000                      100.000                         19312.000               169.254        137.198        137.237        61.640        61.700
+
+Partition-wise averages:
+              trip_id  gps_observation_rows  valid_coordinate_rows  invalid_coordinate_rows  valid_timestamp_rows  timestamp_min  timestamp_max  timestamp_delta_count  nonpositive_timestamp_deltas  gaps_over_one_second  exact_one_second_percentage  valid_consecutive_distance_pairs  trajectory_length_km  longitude_min  longitude_max  latitude_min  latitude_max
+partition                                                                                                                                                                                                                                                                                                                                                                
+student_test   47.300              1916.000               1916.000                      0.0              1916.000          1.000       2026.000               1915.000                           0.0                26.400                       98.199                          1915.000                29.697         29.493         29.643        51.737        51.820
+train          49.538              2605.212               2605.212                      0.0              2605.212         11.675       5692.079               2604.212                           0.0                91.075                       93.833                          2604.212                37.230         15.562         15.750        44.311        44.419
+
+=================================================================
+ROAD NETWORK
+=================================================================
+       trip_id   node_rows  valid_node_coordinates  invalid_node_coordinates    arc_rows  valid_arcs  invalid_arcs  isolated_nodes  connected_components  largest_component_nodes  duplicate_arc_rows  self_loop_count  longitude_min  longitude_max  latitude_min  latitude_max
+count   90.000      90.000                  90.000                      90.0      90.000      90.000          90.0            90.0                90.000                   90.000              90.000           90.000         90.000         90.000        90.000        90.000
+mean    49.289   22490.822               22490.822                       0.0   45132.722   45132.722           0.0             0.0                37.200                21936.722              21.144            0.267         17.101         17.303        45.127        45.251
+std     29.156   30868.526               30868.526                       0.0   61920.285   61920.285           0.0             0.0                58.149                30277.014              52.017            1.003         47.941         47.954        17.604        17.596
+min      0.000     299.000                 299.000                       0.0     649.000     649.000           0.0             0.0                 1.000                  296.000               0.000            0.000       -100.428       -100.258       -34.650       -34.599
+25%     25.250    3655.250                3655.250                       0.0    7282.750    7282.750           0.0             0.0                 8.250                 3449.000               0.000            0.000         -0.109          0.224        42.809        42.867
+50%     49.000    9305.000                9305.000                       0.0   18761.500   18761.500           0.0             0.0                19.000                 9010.000               2.500            0.000         16.153         16.223        50.195        50.246
+75%     74.750   26296.500               26296.500                       0.0   52913.250   52913.250           0.0             0.0                40.750                25431.750              12.000            0.000         39.211         39.267        55.102        55.358
+max     99.000  155003.000              155003.000                       0.0  307392.000  307392.000           0.0             0.0               421.000               154127.000             322.000            8.000        137.188        137.247        61.630        61.709
+
+Partition-wise averages:
+              trip_id  node_rows  valid_node_coordinates  invalid_node_coordinates  arc_rows  valid_arcs  invalid_arcs  isolated_nodes  connected_components  largest_component_nodes  duplicate_arc_rows  self_loop_count  longitude_min  longitude_max  latitude_min  latitude_max
+partition                                                                                                                                                                                                                                                                           
+student_test   47.300   9068.900                9068.900                       0.0   18504.1     18504.1           0.0             0.0                22.700                 8749.900              12.800            0.200         29.483         29.653        51.727        51.830
+train          49.538  24168.562               24168.562                       0.0   48461.3     48461.3           0.0             0.0                39.012                23585.075              22.188            0.275         15.553         15.759        44.301        44.429
+
+=================================================================
+REFERENCE ROUTES
+=================================================================
+       trip_id  route_rows  valid_route_arc_ids  malformed_route_rows  out_of_range_arc_ids  references_to_invalid_arcs  continuity_checks  disconnected_transitions  route_continuity_percentage
+count   90.000      90.000               90.000                  90.0                  90.0                        90.0             90.000                    90.000                       90.000
+mean    49.289     386.811              386.811                   0.0                   0.0                         0.0            385.811                     0.156                       99.939
+std     29.156     359.238              359.238                   0.0                   0.0                         0.0            359.238                     0.472                        0.234
+min      0.000      59.000               59.000                   0.0                   0.0                         0.0             58.000                     0.000                       98.131
+25%     25.250     166.750              166.750                   0.0                   0.0                         0.0            165.750                     0.000                      100.000
+50%     49.000     272.500              272.500                   0.0                   0.0                         0.0            271.500                     0.000                      100.000
+75%     74.750     464.250              464.250                   0.0                   0.0                         0.0            463.250                     0.000                      100.000
+max     99.000    2266.000             2266.000                   0.0                   0.0                         0.0           2265.000                     3.000                      100.000
+
+Partition-wise averages:
+              trip_id  route_rows  valid_route_arc_ids  malformed_route_rows  out_of_range_arc_ids  references_to_invalid_arcs  continuity_checks  disconnected_transitions  route_continuity_percentage
+partition                                                                                                                                                                                               
+student_test   47.300       347.7                347.7                   0.0                   0.0                         0.0              346.7                     0.100                       99.973
+train          49.538       391.7                391.7                   0.0                   0.0                         0.0              390.7                     0.162                       99.935
+
+=================================================================
+DATA QUALITY
+=================================================================
+       trip_id  missing_files  malformed_rows_all_files  invalid_gps_coordinates  nonpositive_timestamp_deltas  invalid_node_coordinates  invalid_arcs  invalid_route_arc_references  disconnected_route_transitions
+count   90.000           90.0                      90.0                     90.0                          90.0                      90.0          90.0                          90.0                          90.000
+mean    49.289            0.0                       0.0                      0.0                           0.0                       0.0           0.0                           0.0                           0.156
+std     29.156            0.0                       0.0                      0.0                           0.0                       0.0           0.0                           0.0                           0.472
+min      0.000            0.0                       0.0                      0.0                           0.0                       0.0           0.0                           0.0                           0.000
+25%     25.250            0.0                       0.0                      0.0                           0.0                       0.0           0.0                           0.0                           0.000
+50%     49.000            0.0                       0.0                      0.0                           0.0                       0.0           0.0                           0.0                           0.000
+75%     74.750            0.0                       0.0                      0.0                           0.0                       0.0           0.0                           0.0                           0.000
+max     99.000            0.0                       0.0                      0.0                           0.0                       0.0           0.0                           0.0                           3.000
+
+Partition-wise averages:
+              trip_id  missing_files  malformed_rows_all_files  invalid_gps_coordinates  nonpositive_timestamp_deltas  invalid_node_coordinates  invalid_arcs  invalid_route_arc_references  disconnected_route_transitions
+partition                                                                                                                                                                                                                  
+student_test   47.300            0.0                       0.0                      0.0                           0.0                       0.0           0.0                           0.0                           0.100
+train          49.538            0.0                       0.0                      0.0                           0.0                       0.0           0.0                           0.0                           0.162
+
+TOP 5 LONGEST TRAJECTORIES
+partition  trip_id  gps_observation_rows  valid_coordinate_rows  invalid_coordinate_rows  valid_timestamp_rows  timestamp_min  timestamp_max  timestamp_delta_count  nonpositive_timestamp_deltas  gaps_over_one_second  exact_one_second_percentage  valid_consecutive_distance_pairs  trajectory_length_km  longitude_min  longitude_max  latitude_min  latitude_max
+    train       54                 19313                  19313                        0                 19313            1.0        19524.0                  19312                             0                    30                    99.844656                             19312            169.254006       4.847402       4.974103     52.286164     52.424972
+    train       84                 16031                  16031                        0                 16031            1.0        16525.0                  16030                             0                    50                    99.688085                             16030            136.807446     -87.097364     -86.741408     34.710965     34.807972
+    train       21                 15783                  15783                        0                 15783            2.0        18607.0                  15782                             0                     6                    99.961982                             15782            128.789175     106.377397     106.733064     15.345165     15.445932
+    train       92                  7892                   7892                        0                  7892            1.0         7892.0                   7891                             0                     0                   100.000000                              7891            109.470109      -3.091551      -2.724756     52.855841     52.984839
+    train       98                  5584                   5584                        0                  5584            1.0         7195.0                   5583                             0                  1268                    77.288196                              5583             99.819328     -51.669044     -51.187225    -29.701688    -29.391487
+
+BOTTOM 5 ROUTE CONTINUITY
+partition  trip_id  route_rows  valid_route_arc_ids  malformed_route_rows  out_of_range_arc_ids  references_to_invalid_arcs  continuity_checks  disconnected_transitions  route_continuity_percentage
+    train       75         108                  108                     0                     0                           0                107                         2                    98.130841
+    train       80         139                  139                     0                     0                           0                138                         1                    99.275362
+    train       33         169                  169                     0                     0                           0                168                         1                    99.404762
+    train       19         545                  545                     0                     0                           0                544                         3                    99.448529
+    train        2         262                  262                     0                     0                           0                261                         1                    99.616858
