@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Dataset - keep raw data outside Git
+data/*
+!data/README.md
+
+# Temporary outputs
+*.tmp
+*.log
+.ipynb_checkpoints/
+
+# Frontend
+node_modules/
+dist/
+
+# OS
+.DS_Store

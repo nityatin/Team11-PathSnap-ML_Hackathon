@@ -1,0 +1,10 @@
+# Paths are relative to the PathSnap project root.
+
+dataset_root: "../Student folder"
+
+train_dir: "../Student folder/train"
+
+student_test_dir: "../Student folder/student_test"
+
+# Set this when the evaluator dataset is officially provided.
+evaluator_test_dir: null
