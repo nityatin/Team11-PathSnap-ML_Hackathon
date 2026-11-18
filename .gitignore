@@ -45,3 +45,24 @@ dist/
 
 # Maps will be reviewed before committing
 /PathSnap/reports/maps/
+
+# Python environments
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+dist/
+
+# Environment variables
+.env
+.env.local
+
+# Dataset
+Student folder/
+
+# Generated temporary files
+*.log
+.DS_Store

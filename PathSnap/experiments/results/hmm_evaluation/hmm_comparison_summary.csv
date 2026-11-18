@@ -1,0 +1,3 @@
+model,baseline_top1_accuracy,hmm_top1_accuracy,improvement_percentage_points
+Bayesian Random Forest,0.8339269231269603,0.8483571512681056,1.4430228141145351
+Random Forest,0.8343850914976952,0.8476924345129812,1.3307343015285897

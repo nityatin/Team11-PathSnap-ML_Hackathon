@@ -1,0 +1,23 @@
+[
+    {
+        "radius_m": 50,
+        "candidate_recall_pct": 89.16787018333437,
+        "average_candidates_per_observation": 8.956452688600258,
+        "total_candidate_rows": 1866677,
+        "total_observations": 208417
+    },
+    {
+        "radius_m": 75,
+        "candidate_recall_pct": 90.0056137455198,
+        "average_candidates_per_observation": 14.834912699060057,
+        "total_candidate_rows": 3091848,
+        "total_observations": 208417
+    },
+    {
+        "radius_m": 100,
+        "candidate_recall_pct": 90.40769227078405,
+        "average_candidates_per_observation": 22.35406420781414,
+        "total_candidate_rows": 4658967,
+        "total_observations": 208417
+    }
+]

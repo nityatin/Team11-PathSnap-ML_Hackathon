@@ -1,0 +1,110 @@
+{
+  "study_name": "pathsnap_random_forest_top1_tpe",
+  "sampler": "Optuna TPESampler (Tree-structured Parzen Estimator)",
+  "direction": "maximize",
+  "objective": "pooled observation-level Top-1 accuracy",
+  "training_data": "experiments/results/training_features/training_features.csv",
+  "student_test_loaded": false,
+  "evaluator_test_loaded": false,
+  "group_column": "trip_id",
+  "number_of_training_trips": 80,
+  "number_of_candidate_rows": 1831153,
+  "number_of_gps_observations": 185841,
+  "feature_columns": [
+    "distance_m",
+    "bearing_difference_deg",
+    "road_length_m",
+    "projection_fraction",
+    "gps_speed_mps",
+    "time_delta_s"
+  ],
+  "target_column": "is_reference",
+  "validation": {
+    "method": "GroupKFold",
+    "number_of_folds": 3,
+    "trip_overlap_allowed": false
+  },
+  "baseline_random_forest": {
+    "parameters": {
+      "n_estimators": 60,
+      "max_depth": 16,
+      "min_samples_split": 2,
+      "min_samples_leaf": 10,
+      "max_features": "sqrt",
+      "max_samples": 1.0,
+      "class_weight": "balanced_subsample"
+    },
+    "grouped_cv_observation_top1_accuracy": 0.786032145759009,
+    "fold_results": [
+      {
+        "fold": 1,
+        "top1_accuracy": 0.7661107404936625,
+        "gps_observations": 74950,
+        "training_trips": 53,
+        "validation_trips": 27,
+        "fit_seconds": 49.70868424499895
+      },
+      {
+        "fold": 2,
+        "top1_accuracy": 0.8361435831133617,
+        "gps_observations": 55689,
+        "training_trips": 54,
+        "validation_trips": 26,
+        "fit_seconds": 42.250297843000226
+      },
+      {
+        "fold": 3,
+        "top1_accuracy": 0.7625267200463751,
+        "gps_observations": 55202,
+        "training_trips": 53,
+        "validation_trips": 27,
+        "fit_seconds": 42.8659165400004
+      }
+    ]
+  },
+  "optimisation": {
+    "requested_additional_trials": 8,
+    "total_completed_trials_in_study": 20,
+    "best_trial_number": 15,
+    "best_grouped_cv_observation_top1_accuracy": 0.7870975726561954,
+    "best_parameters": {
+      "n_estimators": 140,
+      "max_depth": 16,
+      "min_samples_split": 16,
+      "min_samples_leaf": 6,
+      "max_samples": 0.663345137663264,
+      "class_weight": "balanced_subsample",
+      "max_features": "sqrt"
+    },
+    "best_trial_fold_results": [
+      {
+        "fold": 1,
+        "top1_accuracy": 0.7669379586390928,
+        "gps_observations": 74950,
+        "fit_seconds": 74.63476854200053
+      },
+      {
+        "fold": 2,
+        "top1_accuracy": 0.8374364775808508,
+        "gps_observations": 55689,
+        "fit_seconds": 66.71451630000047
+      },
+      {
+        "fold": 3,
+        "top1_accuracy": 0.7636860983297706,
+        "gps_observations": 55202,
+        "fit_seconds": 72.97177085300063
+      }
+    ]
+  },
+  "comparison": {
+    "baseline_top1": 0.786032145759009,
+    "optimised_top1": 0.7870975726561954,
+    "absolute_improvement_percentage_points": 0.10654268971863612
+  },
+  "final_fit_seconds": 126.2310666600024,
+  "model_artifact": "artifacts/models/bayesian_optimized_random_forest.joblib",
+  "trial_results_csv": "experiments/results/bayesian_trials/random_forest_tpe_trials.csv",
+  "study_database": "experiments/results/bayesian_trials/random_forest_tpe_study.db",
+  "random_state": 42
+}
